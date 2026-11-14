@@ -1,0 +1,86 @@
+{
+ "v": 1,
+ "files": {
+  "ctc.onnx": {
+   "src": [
+    "asr-ctc.0.txt",
+    "asr-ctc.1.txt",
+    "asr-ctc.2.txt",
+    "asr-ctc.3.txt"
+   ],
+   "b64": true,
+   "size": 36081762,
+   "sha256": "88f9df290d57b8890275d79187b77515aeeb12626a42bc76cbd0f8bfcaff00f0"
+  },
+  "whisper/onnx/encoder_model_quantized.onnx": {
+   "src": [
+    "asr-wenc.0.txt",
+    "asr-wenc.1.txt"
+   ],
+   "b64": true,
+   "size": 23159167,
+   "sha256": "2714484ebe1bae7c1646e8eadb768bb9d415cf11763466d21f23039a29c62e6f"
+  },
+  "whisper/onnx/decoder_model_merged_quantized.onnx": {
+   "src": [
+    "asr-wdec.0.txt",
+    "asr-wdec.1.txt",
+    "asr-wdec.2.txt",
+    "asr-wdec.3.txt",
+    "asr-wdec.4.txt"
+   ],
+   "b64": true,
+   "size": 53712708,
+   "sha256": "cf9a8d5bcddc0917a0078135b484cedcaf44f28909cd91910abd29dced9171db"
+  },
+  "ort.wasm": {
+   "src": [
+    "asr-ort.wasm"
+   ],
+   "size": 14264838,
+   "sha256": "06ba057753da3847e4c24f02d91ab133455b0817c69a44993a9a53a2146df9e3"
+  },
+  "whisper/config.json": {
+   "src": [
+    "asr-w-config.json"
+   ],
+   "size": 2243,
+   "sha256": "f4d0608f7d918166da7edb3e188de5ef1bfe70d9802e785d271fd88111e9cf4b"
+  },
+  "whisper/generation_config.json": {
+   "src": [
+    "asr-w-generation_config.json"
+   ],
+   "size": 3832,
+   "sha256": "61070cf8de25b1e9256e8e102ded49d8d24a8369ed36ef84fdf21549e68125a0"
+  },
+  "whisper/preprocessor_config.json": {
+   "src": [
+    "asr-w-preprocessor_config.json"
+   ],
+   "size": 339,
+   "sha256": "a6a76d28c93edb273669eb9e0b0636a2bddbb1272c3261e47b7ca6dfdbac1b8d"
+  },
+  "whisper/tokenizer.json": {
+   "src": [
+    "asr-w-tokenizer.json"
+   ],
+   "size": 2480466,
+   "sha256": "27fc476bfe7f17299480be2273fc0608e4d5a99aba2ab5dec5374b4482d1a566"
+  },
+  "whisper/tokenizer_config.json": {
+   "src": [
+    "asr-w-tokenizer_config.json"
+   ],
+   "size": 282682,
+   "sha256": "2e036e4dbacfdeb7242c7d4ec4149f4a16e86026048f94d1637e3a8ee9c6a573"
+  },
+  "quran.json": {
+   "src": [
+    "asr-quran.json"
+   ],
+   "size": 1381483,
+   "sha256": "d4e6f982ac97aac00477b6ab459129e21f8ed8d2643281a8b68aee1217826e44"
+  }
+ }
+}
